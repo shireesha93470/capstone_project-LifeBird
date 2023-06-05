@@ -1,0 +1,64 @@
+ .outer-line{
+     height:550px; 
+    width:500px;  
+    margin-left: 400px;
+    margin-top: 150px; 
+    
+    /* background-image: linear-gradient(to right, rgb(40, 218, 221), #7ad97f);  */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+ }
+  
+  body{
+    background-image: linear-gradient(to right, rgb(40, 218, 221), #7ad97f); 
+ } 
+ .input{
+    margin: 40px 0px;
+ }
+ 
+ /* .box{
+    
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 243px;
+    
+ } */
+ 
+ .details{
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    background-color: rgba(0, 0, 0 , 0);
+    border: none;
+    border-bottom: 1px solid #FFF;
+    color: white;
+ }
+ img{
+    height:200px;
+    width:200px;
+    border-radius: 200px;
+ }
+ h1{
+    margin-top: 40px;
+ }
+ .logos img{
+    height:50px;
+    width:50px;border-radius: 50px;
+    /* margin-left: 50px; */
+    margin-top: 40px;
+ }
+ .logos{
+    display: flex;
+ }
+ .facebook{
+    margin-left: 10px;
+ }
+ .insta{
+    margin-left: 20px;
+ }
+ .twitter{
+    margin-left: 20px;
+ }
+ 
+ 
+ 
+ 
