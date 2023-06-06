@@ -1,26 +1,24 @@
 .outer-line{
-     height:650px;
+    height:550px;
     width:500px;  
-    margin-left: 400px;
-    margin-top: 150px; 
-    background-image: linear-gradient(to right, rgb(40, 218, 221), #7ad97f); 
-	/* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-	
+    margin-left: 650px;
+    margin-top: 240px; 
+    background-image: linear-gradient(to right, rgb(40, 134, 221), #87c3f2); 	
 }
-.input{
-	margin: 40px 0px;
+.texboxes{
+	margin: 40px 100px;
 }
 
 .center{
 	text-align: center;
 }
 
-.box{
+ .box{
 	
 	margin: 0 auto;
 	margin-top: 150px;
 	width: 243px;
-}
+} 
 
 .details{
 	width: 100%;
