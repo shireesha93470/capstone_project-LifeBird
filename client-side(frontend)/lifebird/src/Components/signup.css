@@ -44,4 +44,10 @@ h1{
 	background-color: aqua;
 	
 }
+body{
+    background-image: url(../../public/baground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:81vh;
+ } 
 

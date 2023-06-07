@@ -1,7 +1,8 @@
 import { useState } from "react";
-import react from 'react';
+// import react from 'react';
 import './signup.css';
-function Signup(){
+function Signup({islogin,setIslogin}){
+
 	const[Name,setName]=useState("");
 	const[Username,setUsername]=useState("");
 	const[Phonenumber,setPhonenumber]=useState("");
@@ -22,6 +23,9 @@ function Signup(){
 	else{
 			alert("Enter your details")
 		}
+	}
+	const handleSignupClick=()=>{
+		setIslogin(true);
 	}
     return(
 	<div className="body">
@@ -48,7 +52,7 @@ function Signup(){
      	         		<input type="button" value="Signup"onClick={button} className="login" />
      	          </div>
      	        </form>
-     	         	<p className="signup">Already a member? <a href="" className="white"> Login</a></p>
+     	         	<p className="signup">Already a member? <span onClick={handleSignupClick}>Login</span></p>
      	    </div> 
         </div>    
             
