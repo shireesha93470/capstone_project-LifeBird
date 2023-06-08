@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    border: 1px solid white;
+    background-color: goldenrod;
+}
+
+.home{
+    margin-left: 730px;
+    margin-top: 20px;
+}
+.doctor{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.lab{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.medicine{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.signup{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.first-lab{
+    height:600px;
+    width:auto;
+    display: flex;
+}
+.first-image{
+    height:500px;
+    width:45%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.first-text{
+    height:500px;
+    width:45%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.first-image image{
+    height:100%;
+    width:100%;
+}
+.lab1details{
+    font-size: 20px;
+}

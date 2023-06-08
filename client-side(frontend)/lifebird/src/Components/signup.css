@@ -9,16 +9,13 @@
 	margin: 40px 100px;
 }
 
-.center{
-	text-align: center;
-}
 
- .box{
+  .box{
 	
 	margin: 0 auto;
 	margin-top: 150px;
 	width: 243px;
-} 
+}  
 
 .details{
 	width: 100%;
@@ -42,12 +39,19 @@ h1{
 	width:150px;
 	border-radius: 5px;
 	background-color: aqua;
+	margin-left: 160px;
 	
 }
 body{
-    background-image: url(../../public/baground.jpg);
+    background-image: url(../../public/resources/baground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:81vh;
+ }
+ .top-section{
+	margin-left: 180px;
  } 
+ .signup{
+	margin-left: 150px;
+ }
 

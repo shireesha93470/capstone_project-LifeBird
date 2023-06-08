@@ -1,0 +1,176 @@
+.navbar{
+    display: flex;
+    border: 1px solid white;
+    background-color: goldenrod;
+}
+
+.home{
+    margin-left: 730px;
+    margin-top: 20px;
+}
+.doctor{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.lab{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.medicine{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.signup{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.logo{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.doctors-cards{
+    height:1200px;
+    width:auto;
+    display: flex;
+    background-color: rgb(165, 176, 176);
+} 
+.filter{
+    height:100%;
+    width:20%;
+    background-color: rgb(165, 176, 176);  
+}
+.search{
+    height:40px;
+    width:400px;
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+#searchbutton1{
+    height:41px;
+    width:50px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border:none;
+    border-radius: 3px;
+}
+.searchbar{
+    display: flex;
+}
+.layout-1{
+    height:350px;
+    width:1470px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 10px;
+   
+}
+.search-logo{
+    width:40px;
+    height:40px;
+}
+.image1{
+    height:320px;
+    width:400px;
+    margin-top: 12px;
+    margin-left: 80px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height:300px;
+    background-color: black;
+    display: flex;  
+}
+.doctorname{
+    height:50px;
+    width:320px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(202, 245, 228); 
+    font-size: 20px;
+}
+.doctorname1{
+    height:50px;
+    width:320px;
+    margin-top: 150px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(202, 245, 228); 
+    font-size: 20px;
+}
+.img1{
+    height:160px;
+    width:250px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.name{
+    margin-left: 150px;
+}
+.job{
+    margin-left: 150px;
+    margin-top: 2px;
+  
+}
+.experience{
+    margin-left: 12px;
+    margin-top: 2px;
+
+}
+.year{
+    display: flex;
+    
+}
+.stars{
+    margin-top: 3px;
+    margin-left: 60px;
+}
+.logos img{
+    height:50px;
+    width:50px;border-radius: 50px;
+    margin-top: 10px;
+ }
+ .logo1{
+    display: flex;
+ }
+  .facebook{
+    margin-left: 30px;
+ }
+ .insta{
+    margin-left: 20px;
+ }
+ .twitter{
+    margin-left: 20px;
+ } 
+ h1{
+    color:whitesmoke
+ }
+ p{
+    color:whitesmoke
+ }
+ .location{
+    height:200px;
+    width:500px;
+    margin-left: 200px;
+    margin-top: 50px;
+ }
+ .logos{
+    height:200px;
+    width:500px; 
+    margin-top: 50px;
+ }
+ .about{
+    height:300px;
+    width:500px; 
+    margin-top: 50px;
+ }

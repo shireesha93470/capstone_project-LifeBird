@@ -1,5 +1,4 @@
 import { useState } from "react";
-import react from 'react';
 import './login.css';
 function Login(){
 	const[Username,setUsername]=useState("");
@@ -47,13 +46,13 @@ function Login(){
 
 			    <div className="logos">
 				<div className="facebook">
-					<a href="https://www.facebook.com/"><img src="facebook.avif"></img></a>
+					<a href="https://www.facebook.com/"><img src="/resources/facebook.avif" alt=""></img></a>
 				</div>
 				<div className="insta">
-					<a href="https://www.instagram.com/"><img src="instagram.avif"></img></a>
+					<a href="https://www.instagram.com/"><img src="/resources/instagram.avif" alt=""></img></a>
 				</div>
 				<div className="twitter">
-					<a href="https://twitter.com/"><img src="twitter.png"></img></a>
+					<a href="https://twitter.com/"><img src="/resources/twitter.png" alt=""></img></a>
 				</div>
 			
      	    </div> 

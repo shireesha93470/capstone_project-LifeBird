@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import react from 'react';
 import './signup.css';
 function Signup({islogin,setIslogin}){
 
@@ -31,7 +30,7 @@ function Signup({islogin,setIslogin}){
 	<div className="body">
        	<div className="outer-line">
            	<div className="Main">
-				<h1>Sign Up</h1>
+				<h1 class="top-section">Sign Up</h1>
 				<form>
                   <div className="texboxes">
      	         		<input type="text" placeholder="Name" onChange={e=> setName(e.target.value)} className="details" />

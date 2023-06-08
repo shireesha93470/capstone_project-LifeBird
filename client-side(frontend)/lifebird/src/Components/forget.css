@@ -8,7 +8,7 @@
  }
   
   body{
-    background-image: url(../../public/baground.jpg);
+    background-image: url(../../public/resources/baground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:81vh;
@@ -16,9 +16,7 @@
  .input1{
     margin: 50px 110px;
  }
-
- 
-   .box{
+ .box{
     
     margin: 0 auto;
     margin-top: 150px;
@@ -52,11 +50,15 @@
 	width:150px;
 	border-radius: 5px;
 	background-color: rgb(14, 184, 241);
+   margin-left: 160px;
+   margin-top: 30px;
 	
 }
 #head1{
    margin-top: 60px;
+   margin-left: 160px;
 }
+
  
  
  

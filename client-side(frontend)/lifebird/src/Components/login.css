@@ -3,32 +3,27 @@
     width:500px;  
     margin-left: 650px;
     margin-top: 240px; 
-    
-    background-image: linear-gradient(to right, rgb(11, 138, 242), #aad0d0);  
-   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+   background-image: linear-gradient(to right, rgb(11, 138, 242), #aad0d0);  
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;   
      
  }
   
  body{
-    background-image: url(../../public/baground.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:81vh;
- } 
+   background-image: url(../../public/resources/baground.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height:81vh;
+}
  .input1{
     margin: 50px 110px;
  }
-
- 
-  .box{
+.box{
     
     margin: 0 auto;
     margin-top: 150px;
     width: 243px;
-    
- }  
- 
- .details1{
+}  
+.details1{
     width: 100%;
     font-size: 20px;
     outline: none;
@@ -65,10 +60,15 @@
 	width:150px;
 	border-radius: 5px;
 	background-color: rgb(14, 184, 241);
+   margin-left: 160px;
 	
 }
 #head1{
    margin-top: 60px;
+   margin-left: 160px;
+}
+.signup{
+   margin-left: 155px;
 }
  
  
