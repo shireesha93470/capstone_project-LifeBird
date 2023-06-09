@@ -1,42 +1,50 @@
 import react, { useState } from 'react';
 import './forget.css';
+import Signup from './signup';
 function Forget(){
 	const[Username,setUsername]=useState("");
 	const[Newpassword,setNewpassword]=useState("");
 	const[Confirmpassword,setConfirmpassword]=useState("");
 	function buttonClick(){
-		if(Username==""||Newpassword==""||Confirmpassword==""){
-			alert("enter details")
+		if(Username==""||Newpassword==""||Confirmpassword=="")
+		{
+			alert("enter details");
+			return;
 		}
-		else{
-			let forget=JSON.parse(localStorage.getItem("signup"))||[];
-			let item=false;
-			if(Newpassword==Confirmpassword){
+		else
+		{
+			let forget=JSON.parse(localStorage.getItem("signup"));
+			if(Newpassword===Confirmpassword)
+			{
 				let arr=[];
-				for(let i=0;i<forget.length;i++){
-					if(forget[i].user===Username){
-						item=true;
-						if(forget[i].user!==Username){
-							let obj={
-								...forget[i],
-								password:Newpassword
-							}
-							arr.push(obj)
+				for(let i=0;i<forget.length;i++)
+				{
+					if(forget[i].password!=Newpassword)
+					{
+						let obj=
+						{
+							...forget[i],
+							password:Newpassword
 						}
-						else{
-							alert("new and old password are same");
-							return
-						}
+						arr.push(obj);
 					}
-					else{
-						arr.push(forget[i])
+					else
+					{
+						alert("old and new passwods are same");
+						return;
 					}
 				}
-				alert("password are not same");
+				console.log(arr);
+				alert("passwords changed successfully");
+				
 				localStorage.setItem("signup",JSON.stringify(arr));
+				return;
 			}
-			if(!item)
-			alert("user doesn't exit");
+			else
+			{
+				alert("passwords are not mached");
+				return;
+			}
 		}
 	}
 return(

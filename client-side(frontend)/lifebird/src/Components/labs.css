@@ -36,17 +36,18 @@
     width:auto;
     display: flex;
 }
-.first-image{
+.baby-video{
     height:500px;
     width:45%;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 46px;
 }
 .first-text{
     height:500px;
-    width:45%;
-    margin-top: 20px;
+    width:46%;
+    margin-top: 35px;
     margin-left: 70px;
+   
 }
 .first-image image{
     height:100%;
@@ -54,4 +55,50 @@
 }
 .lab1details{
     font-size: 20px;
+}
+.learn{
+    height:40px;
+    width:150px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border:none;
+    margin-top: 12px;   
+}
+.second-lab{
+    height:600px;
+    width:auto;
+    display: flex;
+}
+ .second-text{
+    height:500px;
+    width:45%;
+    margin-top: 20px; 
+    margin-left: 46px;
+    
+} 
+.lab2details{
+    font-size: 20px;
+}
+.learn1{
+    height:40px;
+    width:150px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border:none;
+    margin-top: 12px; 
+    
+} 
+.mri-video{
+   width: 843px;
+   height: 500px;
+   margin-top: -23px;
+   margin-left: 5px;
+  
+}
+.second-video{
+    height:500px;
+    width:46%;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 10px;    
 }

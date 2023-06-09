@@ -8,18 +8,20 @@ function Login(){
 			alert("fill the details");
 		}
 		else{
-		let result=JSON.parse(localStorage.getItem("result"))||[];
-		for(let i=0;i<result.length;i++){
-		if(result[i].Email===Username&&result[i].password===password){
-	    alert("Login successfully")
-	
-		localStorage.setItem("result",JSON.stringify(result[i]));
-		}
-		else{
-			alert("user not exit");
+		let result=JSON.parse(localStorage.getItem("signup"));
+		console.log(result);
+		for(let i=0;i<result.length;i++)
+		{
+			if(result[i].Username===Username&&result[i].password===password)
+			{
+				alert("Login successfully")
+				return;
+				localStorage.setItem("result",JSON.stringify(result[i]));
+			}
 		}
 		
-		}
+			alert("user not exit");
+			return;
    }
 	}
 
