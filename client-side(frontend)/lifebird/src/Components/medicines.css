@@ -1,0 +1,107 @@
+.navbar{
+    display: flex;
+    border: 1px solid white;
+    background-color: goldenrod;
+}
+
+.home{
+    margin-left: 730px;
+    margin-top: 20px;
+}
+.doctor{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.lab{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.medicine{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.signup{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.logos img{
+    height:50px;
+    width:50px;border-radius: 50px;
+    margin-top: 10px;
+ }
+ .logo1{
+    display: flex;
+ }
+  .facebook{
+    margin-left: 30px;
+ }
+ .insta{
+    margin-left: 20px;
+ }
+ .twitter{
+    margin-left: 20px;
+ } 
+ h1{
+    color:whitesmoke;
+ }
+ p{
+    color:whitesmoke
+ }
+ .location{
+    height:200px;
+    width:500px;
+    margin-left: 200px;
+    margin-top: 50px;
+ }
+ .logos{
+    height:200px;
+    width:500px; 
+    margin-top: 50px;
+ }
+ .about{
+    height:300px;
+    width:500px; 
+    margin-top: 50px;
+ }
+ .footer{
+    width: 100%;
+    height:300px;
+    background-color: black;
+    display: flex; 
+    margin-top: 5px; 
+}
+.main-section{
+    height:400px;
+    width:auto;
+    border:1px solid black; 
+    margin-top: 30px;
+    background-image: url("https://img.freepik.com/free-photo/top-view-assortment-pills_23-2148533536.jpg?w=1380&t=st=1686674452~exp=1686675052~hmac=5ded964e0e293361e1393db226f2d6b932ee6a1d77f9b628b06cbe24dc2e5567"); 
+}
+.medical-search{
+    display: flex;
+}
+.medical-button{
+    height:40px;
+    width:40px;
+    margin-top: 30px;
+    border:1px solid black;
+    margin-left: 5px;
+}
+.medical-button img{
+    height:30px;
+    width:30px;
+}
+.medical-search input{
+    height:37px;
+    width:350px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+ 

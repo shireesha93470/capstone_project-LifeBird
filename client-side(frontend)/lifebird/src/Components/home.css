@@ -165,11 +165,11 @@ h3{
  .twitter{
     margin-left: 20px;
  } 
- h1{
+ .h1{
     color:whitesmoke;
  }
- p{
-    color:black;;
+ .p{
+    color:whitesmoke;
  }
  .location{
     height:200px;

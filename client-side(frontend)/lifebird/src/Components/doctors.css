@@ -32,17 +32,7 @@
     margin-left: 80px;
     margin-top: 20px;
 }
-.doctors-cards{
-    height:1200px;
-    width:auto;
-    display: flex;
-    background-color: rgb(165, 176, 176);
-} 
-.filter{
-    height:100%;
-    width:20%;
-    background-color: rgb(165, 176, 176);  
-}
+ 
 .search{
     height:40px;
     width:400px;
@@ -63,78 +53,19 @@
 .searchbar{
     display: flex;
 }
-.layout-1{
-    height:350px;
-    width:1470px;
-    margin-top: 20px;
-    display: flex;
-    margin-left: 10px;
-   
-}
+
 .search-logo{
     width:40px;
     height:40px;
 }
-.image1{
-    height:320px;
-    width:400px;
-    margin-top: 12px;
-    margin-left: 80px;
-    background-color:whitesmoke;
-    border-radius: 10px;
-}
+
 .footer{
     width: 100%;
     height:300px;
     background-color: black;
     display: flex;  
 }
-.doctorname{
-    height:50px;
-    width:320px;
-    margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 10px;
-    background-color: rgb(202, 245, 228); 
-    font-size: 20px;
-}
-.doctorname1{
-    height:50px;
-    width:320px;
-    margin-top: 150px;
-    margin-left: 10px;
-    border-radius: 10px;
-    background-color: rgb(202, 245, 228); 
-    font-size: 20px;
-}
-.img1{
-    height:160px;
-    width:250px;
-    border-radius: 10px;
-    margin-left: 80px;
-    margin-top: 10px;
-}
-.name{
-    margin-left: 150px;
-}
-.job{
-    margin-left: 150px;
-    margin-top: 2px;
-  
-}
-.experience{
-    margin-left: 12px;
-    margin-top: 2px;
 
-}
-.year{
-    display: flex;
-    
-}
-.stars{
-    margin-top: 3px;
-    margin-left: 60px;
-}
 .logos img{
     height:50px;
     width:50px;border-radius: 50px;
@@ -173,4 +104,96 @@
     height:300px;
     width:500px; 
     margin-top: 50px;
+ }
+ .main-section{
+    height:1100px;
+    width:auto;
+    /* border:1px solid black; */
+    display: flex;
+    margin-top: 5px;
+
+ }
+ .search-input{
+    display: flex;
+ }
+ .search-input input{
+    height:35px;
+    width:250px;
+    margin-left: 30px;
+    
+ }
+ .search-input img{
+    height:35px;
+    width:35px;
+ }
+ .search-button{
+    height:40px;
+    width:40px;
+    border:1px solid black; 
+    margin-left: 10px;
+ }
+ .left-section{
+    height:1089px;
+    width:350px;
+    border:1px solid black; 
+    margin-top: 10px;
+    
+ }
+ .search{
+    margin-left: 30px;
+    color: black;
+    font-size: 30px;
+    margin-top: 60px;
+ }
+ .card-section{
+    height:1100px;
+    width:100%;
+    
+ }
+ #layout-1{
+    display: flex;
+    height:350px;
+    width:auto;
+    
+ }
+ .small-card{
+    height:300px;
+    width:300px;
+    border: 1px solid black; 
+    margin-top: 10px;
+    margin-left: 55px;
+ }
+ .small-card img{
+    height:200px;
+    width:200px;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .small-card h3{
+    margin-left: 130px;
+ }
+ .doctor-card{
+    height:400px;
+    width:auto;
+    border:1px solid black;
+    display: flex;
+ }
+ .small-doctorcard{
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+    border:1px solid blue;
+    margin-left: 53px;
+    margin-top: 50px;
+ }
+ .small-doctorcard img{
+    height:200px;
+    width:200px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .small-doctorcard h3{
+    margin-left: 90px;
  }

@@ -20,7 +20,7 @@ function Home(){
     <div className='card'>
             <div className='left'>
                 <div className='photocard'>
-                    <img src={"/resources/card1.jpg"}>
+                    <img src={"/resources/card1.avif"}>
                     </img>
                     <h3>Education and Training:</h3>
                         <p>Doctors typically complete an undergraduate degree in a science-related field before attending medical school. However, some medical schools accept students with non-science degrees as well.
@@ -33,7 +33,7 @@ function Home(){
             </div>
                 <div className='right'>
                     <div className='photocard'>
-                        <img src="/resources/card2.jpg"></img>
+                        <img src="/resources/card2.avif"></img>
                             <h3>Specialist doctors</h3>
                             <p>Specialist doctors, also known as medical specialists, are highly trained physicians who have pursued additional education and training in a specific area of medicine beyond their general medical education. These doctors have acquired in-depth knowledge and expertise in their chosen field, enabling them to provide specialized care to patients with specific medical conditions.
                              Specialist doctors begin their journey by completing an undergraduate degree and attending medical school, just like general doctors. However, their training goes beyond this point. After medical school, they undertake a residency program, which typically lasts several years, focusing on their specialty of choice.</p>
@@ -50,13 +50,13 @@ function Home(){
             </div>
             <div id="smallcards">
                 <div><img class="card3"
-                    src="/resources/images1.jpeg"></img>
+                    src="/resources/image1.avif"></img>
                 </div>
                 <div><img class="card3"
-                    src="/resources/images2.jpeg"></img>
+                    src="/resources/image2.jpg"></img>
                 </div>
                 <div><img class="card3"
-                    src="/resources/images3.jpeg"></img>
+                    src="/resources/image3.jpg"></img>
                 </div>
                 <div><img class="card3"
                      src="/resources/images4.jpeg"></img>
@@ -64,11 +64,11 @@ function Home(){
          </div>
          <div className='footer'>
                 <div className='location'>
-                    <h1>LOCATION</h1>
-                    <p>somewhere in India</p>
+                    <h1 className="h1">LOCATION</h1>
+                    <p className="p">somewhere in India</p>
                 </div>
                 <div className='logos'>
-                     <h1>AROUND THE WEB</h1>
+                     <h1 className="h1">AROUND THE WEB</h1>
                     <div className='logo1'>
                         <div className="facebook">
 					        <a href="https://www.facebook.com/"><img src="/resources/facebook.avif" alt=""></img></a>
@@ -82,8 +82,8 @@ function Home(){
                     </div>
                 </div>
                 <div className='about'>
-                     <h1>ABOUT US</h1>
-                     <p>Connecting patients with trusted doctors online for<br></br> accessible and convenient healthcare.</p>
+                     <h1 className="h1">ABOUT US</h1>
+                     <p className="p">Connecting patients with trusted doctors online for<br></br> accessible and convenient healthcare.</p>
                 </div>
                         
             </div>
