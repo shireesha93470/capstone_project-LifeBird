@@ -59,13 +59,52 @@ function Labs(){
                         </video>
                     </div>
             </div>  
-            <div className='card-section'>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+                <div className='card-section'>
+                    <div className='small-card-section'>
+                            <div className='small-card1'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h2>Cardialogist labs</h2>
+                            </div>
+                            <div className='small-card'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                            <div className='small-card'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                            <div className='small-card'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                            <div className='small-card'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                    </div>
+                    <div className='small-card-section'>
+                            <div className='small-card1'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                            <div className='small-card'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                            <div className='small-card'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                            <div className='small-card'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                            <div className='small-card'>
+                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <h1></h1>
+                            </div>
+                    </div>
+                </div>
         
         </div>
 
