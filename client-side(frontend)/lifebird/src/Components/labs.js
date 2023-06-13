@@ -11,7 +11,7 @@ function Labs(){
                 <h2 className='medicine'>Medicines</h2>
                 <h2 className='signup'>Signup</h2> 
             </div>
-            <div className='first-lab'>
+            <div  className='first-lab'>
                 <video className='baby-video' controls>
                     <source src={"baby.mp4"} type="video/mp4"></source>
                 </video>
