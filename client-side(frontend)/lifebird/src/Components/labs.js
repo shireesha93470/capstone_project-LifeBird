@@ -66,45 +66,45 @@ function Labs(){
                 <div className='card-section'>
                     <div className='small-card-section'>
                             <div className='small-card1'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
-                                <h2>Cardialogist labs</h2>
+                                <img className='labs' src="/resources/bloodtest.avif"></img>
+                                <h2></h2>
                             </div>
                             <div className='small-card'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test2.avif"></img>
                                 <h1></h1>
                             </div>
                             <div className='small-card'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test3.avif"></img>
                                 <h1></h1>
                             </div>
                             <div className='small-card'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test4.avif"></img>
                                 <h1></h1>
                             </div>
                             <div className='small-card'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test5.avif"></img>
                                 <h1></h1>
                             </div>
                     </div>
                     <div className='small-card-section'>
                             <div className='small-card1'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test6.avif"></img>
                                 <h1></h1>
                             </div>
                             <div className='small-card'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test7.avif"></img>
                                 <h1></h1>
                             </div>
                             <div className='small-card'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test8.avif"></img>
                                 <h1></h1>
                             </div>
                             <div className='small-card'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test9.avif"></img>
                                 <h1></h1>
                             </div>
                             <div className='small-card'>
-                                <img className='labs' src="/resources/lab1.jpg"></img>
+                                <img className='labs' src="/resources/test10.avif"></img>
                                 <h1></h1>
                             </div>
                     </div>

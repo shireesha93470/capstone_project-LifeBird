@@ -82,7 +82,9 @@
     width:auto;
     border:1px solid black; 
     margin-top: 30px;
-    background-image: url("https://img.freepik.com/free-photo/top-view-assortment-pills_23-2148533536.jpg?w=1380&t=st=1686674452~exp=1686675052~hmac=5ded964e0e293361e1393db226f2d6b932ee6a1d77f9b628b06cbe24dc2e5567"); 
+    background-repeat: no-repeat;
+     background-size:cover; 
+    background-image: url("https://img.freepik.com/free-vector/humanitarian-help-concept_23-2148497993.jpg?size=626&ext=jpg&ga=GA1.1.1172006853.1685424020&semt=ais"); 
 }
 .medical-search{
     display: flex;
@@ -104,4 +106,24 @@
     margin-left: 600px;
     margin-top: 30px;
 }
- 
+.part1{
+    height:300px;
+    width:auto;
+    border:1px solid black;
+    display: flex;
+    margin-top: 10px;
+}
+.small-section{
+    height:280px;
+    width:240px;
+    border:1px solid blue;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.small-section img{
+    height:230px;
+    width:230px;
+}
+.small-section p{
+    color:black;
+}

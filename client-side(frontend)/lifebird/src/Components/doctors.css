@@ -142,7 +142,7 @@
  .search{
     margin-left: 30px;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 60px;
  }
  .card-section{
@@ -171,7 +171,8 @@
     margin-top: 20px;
  }
  .small-card h3{
-    margin-left: 130px;
+    /* margin-left: 60px; */
+    text-align: center;
  }
  .doctor-card{
     height:400px;

@@ -5,44 +5,47 @@ function Home(){
 <div className='main'>
     <div className="photo">
         <div className='navbar'>
-            <h2 className='logo'>LifeBird</h2>
-            <h2 className='home'>Home</h2>
-            <h2 className='doctor'>Doctors</h2>
-            <h2 className='lab'>Labs</h2>
-            <h2 className='medicine'>Medicines</h2>
-            <h2 className='signup'>Signup</h2> 
+            <p className='logo'>LifeBird</p>
+            <p className='home'>Home</p>
+            <p className='doctor'>Doctors</p>
+            <p className='lab'>Labs</p>
+            <p className='medicine'>Medicines</p>
+            <p className='signup'>Signup</p> 
         </div>
         <div className="text">
             <p>Bringing health <br></br>to life for the whole family  </p>
         </div> 
             <button className='button'>Discover More</button>  
     </div>
+    <p>Our Departments</p>
     <div className='card'>
-            <div className='left'>
-                <div className='photocard'>
-                    <img src={"/resources/card1.avif"}>
-                    </img>
-                    <h3>Education and Training:</h3>
-                        <p>Doctors typically complete an undergraduate degree in a science-related field before attending medical school. However, some medical schools accept students with non-science degrees as well.
-                        Medical school usually lasts four years and leads to the award of a Doctor of Medicine (M.D.) or Doctor of Osteopathic Medicine (D.O.) degree.
-                        After graduating from medical school, doctors undertake a residency program, which provides hands-on training and specialization in a particular area of medicine. Residencies can last from three to seven years, depending on the specialty.
-                        Following residency, doctors may choose to pursue additional training through fellowships to further specialize in a specific subspecialty or field of medicine.</p>
-                        <button id="learn">Learn More</button>
-                </div>
-
+        <div className="small-part">
+            <div className="small-symbol">
+                <img src="/resources/card1.png"></img>
+                <p>A cardiologist is a medical specialist who focuses on diagnosing and treating diseases.</p>
             </div>
-                <div className='right'>
-                    <div className='photocard'>
-                        <img src="/resources/card2.avif"></img>
-                            <h3>Specialist doctors</h3>
-                            <p>Specialist doctors, also known as medical specialists, are highly trained physicians who have pursued additional education and training in a specific area of medicine beyond their general medical education. These doctors have acquired in-depth knowledge and expertise in their chosen field, enabling them to provide specialized care to patients with specific medical conditions.
-                             Specialist doctors begin their journey by completing an undergraduate degree and attending medical school, just like general doctors. However, their training goes beyond this point. After medical school, they undertake a residency program, which typically lasts several years, focusing on their specialty of choice.</p>
-                             <button id="learn">Learn More</button>
-                    
-                     </div>
-                </div>
-
+            <div className="small-symbol">
+                <img src=""></img>
+                <p>Our mission is to improve quality of life through the enhancement of vision...</p>
             </div>
+            <div className="small-symbol">
+                <img src=""></img>
+                <p></p>
+            </div>
+            <div className="small-symbol"></div>
+        </div>
+        <div className="small-part">
+            <div className="small-symbol"></div>
+            <div className="small-symbol"></div>
+            <div className="small-symbol"></div>
+            <div className="small-symbol"></div>
+        </div>
+    </div>
+
+    
+            
+
+            
             <div className='video-layout'>
                 <video className='video' controls>
                 <source src={"doctor.mp4"} type="video/mp4"></source>
@@ -53,13 +56,13 @@ function Home(){
                     src="/resources/image1.avif"></img>
                 </div>
                 <div><img class="card3"
-                    src="/resources/image2.jpg"></img>
+                    src="/resources/image2.avif"></img>
                 </div>
                 <div><img class="card3"
-                    src="/resources/image3.jpg"></img>
+                    src="/resources/image3.avif"></img>
                 </div>
                 <div><img class="card3"
-                     src="/resources/images4.jpeg"></img>
+                     src="/resources/image4.avif"></img>
                 </div>
          </div>
          <div className='footer'>

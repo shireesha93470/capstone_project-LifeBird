@@ -21,6 +21,132 @@ function Medicine(){
             <div className="main-section">
 
             </div>
+            <h3>Health Gummies</h3>
+            <div className="part1">
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum2.jpg"></img>
+                    <p>Nutracitta Biotin Beauty Blend</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum3.webp"></img>
+                    <p>Nutrition Multivitamin Booster</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum4.jpg"></img>
+                    <p>Pack Sugar Apple Cider Vinegar</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum5.png"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+            </div>
+            <h3>Health Gummies</h3>
+            <div className="part1">
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+            </div>
+            <h3>Health Gummies</h3>
+            <div className="part1">
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+            </div>
+            <h3>Health Gummies</h3>
+            <div className="part1">
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+                <div className="small-section">
+                    <img src="/resources/gum1.jpg"></img>
+                    <p>Royale Health Biotin Gummies</p>
+                </div>
+            </div>
+        
+        
         
         
         <div className='footer'>
