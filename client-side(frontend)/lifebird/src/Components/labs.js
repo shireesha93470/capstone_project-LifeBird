@@ -11,16 +11,42 @@ function Labs(){
                 <h2 className='medicine'>Medicines</h2>
                 <h2 className='signup'>Signup</h2> 
             </div>
-            <div className='second-section'>
-                <img src=""></img>
-                
+            <div className='second-section'></div>
+            <h3 className='tests'>Common tests</h3>
+            <div className='third-section'>
+                <div className='test1'>
+                    <h3>Full Body Checkup</h3>
+                    <p>Full body checkup covering at 9 tests 8 parameters</p>
+                    <button>View test Details</button>
+                </div>
+                <div className='test1'>
+                    <h3>Full Body Checkup with vitamin screening</h3>
+                    <p>Full body checkup including vitamins</p>
+                    <button>View test Details</button>
+                </div>
+                <div className='test1'>
+                    <h3>CBC Haemogram Test</h3>
+                    <p>Blood test to identify any infection in the body</p>
+                    <button>View test Details</button>
+                </div>
+                <div className='test1'>
+                    <h3>Random Blood Sugar</h3>
+                    <p>Checking sugar level in the blood</p>
+                    <button>View test Details</button>
+                </div>
+                <div className='test1'>
+                    <h3>Blood sugar Fasting</h3>
+                    <p>Checking sugar level in the blood while fasting</p>
+                    <button>View test Details</button>
+                </div>
             </div>
+
             <div  className='first-lab'>
                 <video className='baby-video' controls>
                     <source src={"baby.mp4"} type="video/mp4"></source>
                 </video>
                 <div className='first-text'>
-                        <h1>prenatal ultrasound: </h1>
+                        <h1 className='text-space'>prenatal ultrasound: </h1>
                         <p class="lab1details">Baby scanning in the mother's stomach, also known as prenatal ultrasound 
                         or fetal ultrasound, is a non-invasive imaging technique used to visualize and monitor the developing 
                         baby during pregnancy Prenatal ultrasound plays a crucial role in obstetrics by providing valuable 
@@ -39,7 +65,7 @@ function Labs(){
             </div>
             <div className='second-lab'>
                 <div className='second-text'>
-                    <h1>Magnetic Resonance Imaging </h1>
+                    <h1 className='text-space'>Magnetic Resonance Imaging </h1>
                     <p className='lab2details'>Magnetic Resonance Imaging (MRI) is a non-invasive medical imaging technique that uses
                      a powerful magnetic field and radio waves to generate detailed images of the body's internal 
                      structures. Here are full details about MRI in 10 lines:

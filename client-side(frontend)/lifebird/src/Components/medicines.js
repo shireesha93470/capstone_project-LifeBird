@@ -11,17 +11,16 @@ function Medicine(){
                 <h2 className='medicine'>Medicines</h2>
                 <h2 className='signup'>Signup</h2>
             </div>
-            <div className="medical-search">
-                <input type="text" placeholder=""></input>
-                <div className="medical-button">
-                    <img src="/resources/search.avif"></img>
-                </div>
-
-            </div>
             <div className="main-section">
-
+                <div className="medical-search">
+                    <input type="text" placeholder=""></input>
+                    <button className="medical-button">
+                        <img src="/resources/search.avif"></img>
+                    </button>
+                </div>
             </div>
-            <h3>Health Gummies</h3>
+          
+            <h3 className="heading">Health Gummies</h3>
             <div className="part1">
                 <div className="small-section">
                     <img src="/resources/gum1.jpg"></img>
@@ -44,106 +43,106 @@ function Medicine(){
                     <p>Royale Health Biotin Gummies</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/gum6.jpeg"></img>
+                    <p>Iron Health Male Enhancement </p>
                 </div>
-                <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
-                </div>
+                {/* <div className="small-section">
+                    <img src="/resources/gum7.jpg"></img>
+                    <p>Vitafusion Fiber Well Gummies</p>
+                </div> */}
             </div>
-            <h3>Health Gummies</h3>
+            <h3 className="heading">Baby Carnival</h3>
             <div className="part1">
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/carnival1.webp"></img>
+                    <p>Horlicks Classic Malt Flavour</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/carnival2.webp"></img>
+                    <p>MamyPoko Extra Absorb</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/carnival3.webp"></img>
+                    <p>Pediasure Chocolate Flavour </p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/carnival4.webp"></img>
+                    <p>Cetaphil Baby Daily lotion</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/carnival5.webp"></img>
+                    <p>Little's  Cleansing Baby Wipes</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/carnival6.webp"></img>
+                    <p>Sebamed Baby Cleansing Bar</p>
                 </div>
-                <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
-                </div>
+                {/* <div className="small-section">
+                    <img src="/resources/carnival7.webp"></img>
+                    <p>Boost Nutrition drink</p>
+                </div> */}
             </div>
-            <h3>Health Gummies</h3>
+            <h3 className="heading">Tablets</h3>
             <div className="part1">
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/tablet1.avif"></img>
+                    <p>Paracetamol Tablet</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/tablet2.jpg"></img>
+                    <p>Cetirizine HCL Tablet</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/tablet3.jpg"></img>
+                    <p>Saridon Headache Relief Tablet</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/tablet4.webp"></img>
+                    <p>Daily Iron Tablet </p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/tablet5.jpg"></img>
+                    <p>Calcium supplements</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/tablet6.webp"></img>
+                    <p>Zinc Supplements</p>
                 </div>
-                <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
-                </div>
+                {/* <div className="small-section">
+                    <img src="/resources/tablet7.jpg"></img>
+                    <p>Crocin Advance Tablet</p>
+                </div> */}
             </div>
-            <h3>Health Gummies</h3>
+            <h3 className="heading">Protein products</h3>
             <div className="part1">
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/protein.webp"></img>
+                    <p>vega sport protein</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/protein1.webp"></img>
+                    <p>oziva plant protein</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/protein2.webp"></img>
+                    <p>sunwarrior blend </p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/protein3.webp"></img>
+                    <p>Dymatize elite casein</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/protein4.webp"></img>
+                    <p>now sports pea protein</p>
                 </div>
                 <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
-                    <p>Royale Health Biotin Gummies</p>
+                    <img src="/resources/protein5.webp"></img>
+                    <p>Jay robb say protein</p>
                 </div>
-                <div className="small-section">
-                    <img src="/resources/gum1.jpg"></img>
+                {/* <div className="small-section">
+                    <img src="/resources/protein6.webp"></img>
                     <p>Royale Health Biotin Gummies</p>
-                </div>
+                </div> */}
             </div>
         
         

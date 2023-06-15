@@ -1,7 +1,7 @@
 .photo{
     width:auto;
     height:100vh; 
-    background-image: url(../../public/resources/home.avif);
+    background-image: url("https://img.freepik.com/premium-photo/blue-stethoscope-with-telemedicine-concept-3d-illustration-rendering_521740-736.jpg?size=626&ext=jpg&ga=GA1.1.1172006853.1685424020&semt=ais");
     background-repeat:no-repeat ;
     background-size: cover; 
 }
@@ -9,55 +9,73 @@
 .navbar{
     display: flex;
     border: 1px solid white;
-    background-color: #04c29f;
-}
-
-.home{
-    margin-left: 730px;
+    background-color: #6bbcbd;
+ }
+ 
+ .home{
+    margin-left: 1080px;
     margin-top: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.doctor{
-    margin-left: 100px;
+    color: black;
+    font-size: 24px;
+ }
+ .doctor{
+    margin-left: 50px;
     margin-top: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.lab{
-    margin-left: 100px;
+    font-size: 24px;
+    color: black;
+ }
+ 
+ .lab{
+    margin-left: 50px;
     margin-top: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.medicine{
-    margin-left: 100px;
+    font-size: 24px;
+    color: black;
+ }
+ 
+ .medicine{
+    margin-left: 50px;
     margin-top: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.signup{
-    margin-left: 100px;
+    font-size: 24px;
+    color: black;
+ }
+ 
+ .signup{
+    margin-left: 50px;
     margin-top: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
+    font-size: 24px;
+    color: black;
+ }
+ 
 .logo{
     margin-left: 80px;
     margin-top: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
 }
 
 .text{
     font-size: 40px;
     margin-left: 100px;
     color: rgb(21, 21, 23);
-    margin-top: 300px;
+    margin-top: 380px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paragraph{
+    font-size: 20px;
+    color: rgb(21, 21, 23);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 .button{
      height:50px;
     width:200px; 
-    background-color: #04c29f;
+    background-color: #6bbcbd;
     margin-left: 100px;
     border-radius: 5px;
     border: none;
@@ -66,8 +84,8 @@
 .card{
     height:600px;
     width:1200px;
-    border: 1px solid black;
     margin-left: 320px;
+    margin-top: 40px;
 }
 .small-part{
     display: flex;
@@ -82,18 +100,17 @@
 h3{
     margin-top: 40px;
 }
-
-#learn{
-    height:50px;
-    width:200px;
-    background-color: #04c29f;
-    border-radius: 5px;
-    border: none;   
+.section-heading{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .video-layout{
     width:100%;
     height:600px;
     margin-top: 5px;
+    background-color: rgb(132, 189, 189);
 }
 .video{
     height:70%;
@@ -111,7 +128,8 @@ h3{
 #smallcards div {
     transition: all 0.5s;
     border-radius: 10px;
-    box-shadow: rgba(100, 110, 113, 0.838) 0px 2px 8px 0px;
+    box-shadow: rgba(194, 219, 226, 0.838) 0px 2px 8px 0px;
+    
  }
  #smallcards div:hover {
    transform: scale(1.04);
@@ -120,25 +138,24 @@ h3{
 #smallcards div {
    text-align: center;
    padding: 20px;
-   margin-left: 45px;
+   margin-left: 30px;
 }
 #smallcards {
     display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
-    gap: 65px;
-    background-color: rgb(215, 219, 241);
+    gap: 10px;
     border-radius: 10px;
     padding: 20px;
     margin-top: 5px;
  }
  .card3{
-    height:300px;
-    width:300px;
+    height:250px;
+    width:250px;
     border-radius: 10px;
  }
  .logos img{
     height:50px;
-    width:50px;border-radius: 50px;
+    width:50px;
+    border-radius: 50px;
     margin-top: 10px;
  }
  .logo1{
@@ -187,11 +204,18 @@ h3{
     width:300px;
     margin-left: 10px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .small-symbol:hover{
     transform: scale(1.04);
 
+}
+.small-symbol p{
+    font-size: 15px;
+    text-align: center;
+}
+#first{
+    margin-left: 130px;
 }
  
 

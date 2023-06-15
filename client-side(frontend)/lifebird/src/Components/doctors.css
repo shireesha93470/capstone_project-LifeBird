@@ -1,38 +1,55 @@
 .navbar{
-    display: flex;
-    border: 1px solid white;
-    background-color: goldenrod;
+   display: flex;
+   border: 1px solid white;
+   background-color: #6dedef;
 }
 
 .home{
-    margin-left: 730px;
-    margin-top: 20px;
+   margin-left: 1080px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: black;
+   font-size: 24px;
 }
 .doctor{
-    margin-left: 100px;
-    margin-top: 20px;
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
 }
 
 .lab{
-    margin-left: 100px;
-    margin-top: 20px;
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
 }
 
 .medicine{
-    margin-left: 100px;
-    margin-top: 20px;
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
 }
 
 .signup{
-    margin-left: 100px;
-    margin-top: 20px;
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
 }
 
 .logo{
-    margin-left: 80px;
-    margin-top: 20px;
+   margin-left: 80px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
 }
- 
 .search{
     height:40px;
     width:400px;

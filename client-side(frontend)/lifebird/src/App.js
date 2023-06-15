@@ -5,8 +5,8 @@ import './App.css';
   //  import Forget from './Components/forget';
    import Home from './Components/home';
   //  import Doctors from './Components/doctors';
-    // import Labs from './Components/labs';
-    // import Medicine from './Components/medicines';
+   //import Labs from './Components/labs';
+  //  import Medicine from './Components/medicines';
   import { useState } from 'react';
 
 function App() {

@@ -14,31 +14,47 @@ function Home(){
         </div>
         <div className="text">
             <p>Bringing health <br></br>to life for the whole family  </p>
+            <p className="paragraph">Bringing health to life for the whole family is an <br></br>admirable goal. Here are some general tips and ideas<br></br> to promote health and well-being for your family:</p>
         </div> 
             <button className='button'>Discover More</button>  
     </div>
-    <p>Our Departments</p>
+    <h4 className="section-heading">Our Departments</h4>
     <div className='card'>
         <div className="small-part">
             <div className="small-symbol">
-                <img src="/resources/card1.png"></img>
-                <p>A cardiologist is a medical specialist who focuses on diagnosing and treating diseases.</p>
+                <img src="/resources/Cardiology.png"></img>
+                <p>​Our areas of expertise make the department a national cardiac referral centre...</p>
             </div>
             <div className="small-symbol">
-                <img src=""></img>
+                <img src="/resources/eye.png"></img>
                 <p>Our mission is to improve quality of life through the enhancement of vision...</p>
             </div>
             <div className="small-symbol">
-                <img src=""></img>
-                <p></p>
+                <img src="/resources/Gastroenterology.png"></img>
+                <p>With nationally and inter- nationally known experts in gastroenterology...</p>
             </div>
-            <div className="small-symbol"></div>
+            <div className="small-symbol">
+                <img src="/resources/Hematology.png"></img>
+                <p>In the medical field, hemato- logy includes the treatment of blood...</p>
+            </div>
         </div>
         <div className="small-part">
-            <div className="small-symbol"></div>
-            <div className="small-symbol"></div>
-            <div className="small-symbol"></div>
-            <div className="small-symbol"></div>
+            <div className="small-symbol">
+                <img src="/resources/Immunology.png"></img>
+                <p>The immune system provides the defense for an organism to repel invasion...</p>
+            </div>
+            <div className="small-symbol">
+                <img src="/resources/Orthopedics.png"></img>
+                <p>We have a diverse team of clinicians, administrators, and researchers...</p>
+            </div>
+            <div className="small-symbol">
+                <img src="/resources/Pulmonary.png"></img>
+                <p>Medicol is one of the leading medical facilities in America for the diagnosis...</p>
+            </div>
+            <div className="small-symbol">
+                <img src="/resources/Psychiatry.jpg"></img>
+                <p>In its ongoing attempts to define, understand, and categorize disorders...</p>
+            </div>
         </div>
     </div>
 
@@ -52,7 +68,7 @@ function Home(){
                 </video>
             </div>
             <div id="smallcards">
-                <div><img class="card3"
+                <div id="first"><img class="card3"
                     src="/resources/image1.avif"></img>
                 </div>
                 <div><img class="card3"
@@ -60,6 +76,9 @@ function Home(){
                 </div>
                 <div><img class="card3"
                     src="/resources/image3.avif"></img>
+                </div>
+                <div><img class="card3"
+                     src="/resources/image4.avif"></img>
                 </div>
                 <div><img class="card3"
                      src="/resources/image4.avif"></img>
