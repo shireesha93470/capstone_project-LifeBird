@@ -18,6 +18,7 @@ function Doctors(){
                             <input type="text" placeholder=''></input>
                             <div className='search-button'>
                                 <img src="/resources/search.avif" alt=""></img>
+                                
                             </div>
                         </div>
                         <h1 className='search'>Country </h1>
@@ -47,54 +48,66 @@ function Doctors(){
                                 <div className='small-card'>
                                     <img src="/resources/cardiology.avif"></img>
                                     <h3>cardialogist</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/Dermatologist.avif"></img>
                                     <h3>Dermatologist</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/endocrinologist.avif"></img>
                                     <h3>Endocrinologist</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/Gastroenterologist.avif"></img>
                                     <h3>Gastroenterologist</h3>
+                                    <button>click here</button>
                                 </div>
                             </div>
                             <div id='layout-1'>
                                 <div className='small-card'>
                                     <img src="/resources/Gynecologist.avif"></img>
                                     <h3>Gynecologist</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/Neurologist.avif"></img>
                                     <h3>Neurologist</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/oncologist.avif"></img>
                                     <h3>Oncologist</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/opthamologist.avif"></img>
                                     <h3>opthamologist</h3>
+                                    <button>click here</button>
                                 </div>
                             </div>
                             <div id='layout-1'>
                                 <div className='small-card'>
                                     <img src="/resources/Orthopedic Surgeon.avif"></img>
                                     <h3>Orthopedic Surgeon</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/otolaryngologist.avif"></img>
                                     <h3>Otolaryngologist</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/psychiatrist.avif"></img>
                                     <h3>psychiatrist</h3>
+                                    <button>click here</button>
                                 </div>
                                 <div className='small-card'>
                                     <img src="/resources/Rheumatologist.avif"></img>
                                     <h3>Rheumatologist</h3>
+                                    <button>click here</button>
                                 </div>
                             </div>
                     </div>

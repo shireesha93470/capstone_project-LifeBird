@@ -13,10 +13,17 @@ function Home(){
             <p className='signup'>Signup</p> 
         </div>
         <div className="text">
-            <p>Bringing health <br></br>to life for the whole family  </p>
-            <p className="paragraph">Bringing health to life for the whole family is an <br></br>admirable goal. Here are some general tips and ideas<br></br> to promote health and well-being for your family:</p>
-        </div> 
-            <button className='button'>Discover More</button>  
+            <div className="text1">
+                <p> Bringing health <br></br> to life for the whole family  </p>
+                <p className="paragraph">Bringing health to life for the whole family is an <br></br>admirable goal. Here are some general tips and ideas<br></br> to promote health and well-being for your family:</p>
+                <button className='button'>Discover More</button>  
+            </div>
+            <div className="phone">
+                <h3 className="main-h3">Talk.Resolve.Heal</h3>
+                <p className="main-p">Online Counselling Therapy With Top<br></br> Psychologists<br></br>
+Anytime, Anywhere, Any device.</p>
+            </div> 
+        </div>
     </div>
     <h4 className="section-heading">Our Departments</h4>
     <div className='card'>
@@ -56,60 +63,60 @@ function Home(){
                 <p>In its ongoing attempts to define, understand, and categorize disorders...</p>
             </div>
         </div>
+    </div>  
+    <div className='video-layout'>
+        <video className='video' controls>
+            <source src={"doctor.mp4"} type="video/mp4"></source>
+        </video>
     </div>
-
-    
-            
-
-            
-            <div className='video-layout'>
-                <video className='video' controls>
-                <source src={"doctor.mp4"} type="video/mp4"></source>
-                </video>
+    <div id="smallcards">
+        <h3>Popular Health Checkups</h3>
+        <div className="section-1">
+            <button>Women Health</button>
+            <button>Diabetes</button>
+            <button>Senior Citizen</button>
+            <button>Allergy Profiles</button>
+        </div>
+        <div className="section-2">
+            <button>Full Body Check Up</button>
+            <button>Pregnancy</button>
+            <button>Men Health</button>
+             <button>Liver Profiles</button>
+        </div>
+        <div className="section-3">
+            <button>Kidney Profiles</button>
+            <button>Iron Studies</button>
+            <button>Vitamin Tests</button>
+            <button>Cancer</button>
+        </div>
+        <button className="started">Get Started</button>
+    </div>
+    <div className='footer'>
+        <div className='location'>
+            <h1 className="h1">LOCATION</h1>
+            <p className="p">somewhere in India</p>
+        </div>
+        <div className='logos'>
+            <h1 className="h1">AROUND THE WEB</h1>
+            <div className='logo1'>
+                <div className="facebook">
+					<a href="https://www.facebook.com/"><img src="/resources/facebook.avif" alt=""></img></a>
+				</div>
+				<div className="insta">
+					<a href="https://www.instagram.com/"><img src="/resources/instagram.avif" alt=""></img></a>
+				</div>
+				<div className="twitter">
+					<a href="https://twitter.com/"><img src="/resources/twitter.png" alt=""></img></a>
+				</div>
             </div>
-            <div id="smallcards">
-                <div id="first"><img class="card3"
-                    src="/resources/image1.avif"></img>
-                </div>
-                <div><img class="card3"
-                    src="/resources/image2.avif"></img>
-                </div>
-                <div><img class="card3"
-                    src="/resources/image3.avif"></img>
-                </div>
-                <div><img class="card3"
-                     src="/resources/image4.avif"></img>
-                </div>
-                <div><img class="card3"
-                     src="/resources/image4.avif"></img>
-                </div>
-         </div>
-         <div className='footer'>
-                <div className='location'>
-                    <h1 className="h1">LOCATION</h1>
-                    <p className="p">somewhere in India</p>
-                </div>
-                <div className='logos'>
-                     <h1 className="h1">AROUND THE WEB</h1>
-                    <div className='logo1'>
-                        <div className="facebook">
-					        <a href="https://www.facebook.com/"><img src="/resources/facebook.avif" alt=""></img></a>
-				        </div>
-				        <div className="insta">
-					        <a href="https://www.instagram.com/"><img src="/resources/instagram.avif" alt=""></img></a>
-				        </div>
-				        <div className="twitter">
-					        <a href="https://twitter.com/"><img src="/resources/twitter.png" alt=""></img></a>
-				        </div>
-                    </div>
-                </div>
-                <div className='about'>
-                     <h1 className="h1">ABOUT US</h1>
-                     <p className="p">Connecting patients with trusted doctors online for<br></br> accessible and convenient healthcare.</p>
-                </div>
+        </div>
+        <div className='about'>
+            <h1 className="h1">ABOUT US</h1>
+            <p className="p">Connecting patients with trusted doctors online for<br></br> accessible and convenient healthcare.</p>
+        </div>
                         
-            </div>
     </div>
+</div>
     )
 }
 export default Home;

@@ -63,6 +63,7 @@
     margin-left: 100px;
     color: rgb(21, 21, 23);
     margin-top: 380px;
+    display: flex;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .paragraph{
@@ -73,10 +74,9 @@
 }
 
 .button{
-     height:50px;
+    height:50px;
     width:200px; 
     background-color: #6bbcbd;
-    margin-left: 100px;
     border-radius: 5px;
     border: none;
     margin-top: 10px;
@@ -124,34 +124,6 @@ h3{
     border: 1px solid black;
   
 }
-
-#smallcards div {
-    transition: all 0.5s;
-    border-radius: 10px;
-    box-shadow: rgba(194, 219, 226, 0.838) 0px 2px 8px 0px;
-    
- }
- #smallcards div:hover {
-   transform: scale(1.04);
-}
-
-#smallcards div {
-   text-align: center;
-   padding: 20px;
-   margin-left: 30px;
-}
-#smallcards {
-    display: flex;
-    gap: 10px;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 5px;
- }
- .card3{
-    height:250px;
-    width:250px;
-    border-radius: 10px;
- }
  .logos img{
     height:50px;
     width:50px;
@@ -213,11 +185,101 @@ h3{
 .small-symbol p{
     font-size: 15px;
     text-align: center;
+    color: black;
 }
-#first{
-    margin-left: 130px;
+#smallcards{
+    height:550px;
+    width:auto;
+    border:1px solid black;
+    background-color: rgb(255, 248, 248);
 }
+#smallcards h3{
+    text-align: center;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section-1{
+    display: flex;
+    height:100px;
+    width:60%;
+    margin-left: 370px;
+    margin-top: 50px;
+}
+.section-1 button{
+    height:60px;
+    width:250px;
+    margin-left: 15px;
+    background-color: rgb(199, 194, 194);
+    border-radius: 10px;
+    border:navajowhite;
+    font-size: 20px;
+}
+.section-2{
+    display: flex;
+    height:100px;
+    width:60%;
+    margin-left: 370px;
+    
+}
+.section-2 button{
+    height:60px;
+    width:200px;
+    margin-left: 52px;
+    background-color: rgb(205, 200, 200);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.button-1{
+    margin-left: 700px;
+}
+.section-3{
+    display: flex;
+    height:100px;
+    width:60%;
+    margin-left: 370px;
+   
+}
+.section-3 button{
+    height:60px;
+    width:250px;
+    margin-left: 15px;
+    background-color: rgb(199, 194, 194);
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+.started{
+    height:50px;
+    width:200px;
+    border:none;
+    margin-left: 800px;
+    background-color: #6bbcbd;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.phone{
+    height:400px;
+    width:550px;
+    border:1px solid blue;
+    margin-left: 530px;
+    margin-top: -150px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: whitesmoke;
+    border-radius: 10px;
  
+}
+.main-h3{
+    text-align: center;
+    color:#6bbcbd
+}
+.main-p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
 
 
 
