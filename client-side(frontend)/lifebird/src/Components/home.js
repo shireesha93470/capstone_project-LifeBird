@@ -70,8 +70,8 @@ Anytime, Anywhere, Any device.</p>
         </video>
     </div>
     <div id="smallcards">
-        <h3>Popular Health Checkups</h3>
-        <div className="section-1">
+         <h3>SOME OF OUR KEY SPECIALITIES ARE:</h3> 
+        {/* <div className="section-1">
             <button>Women Health</button>
             <button>Diabetes</button>
             <button>Senior Citizen</button>
@@ -89,7 +89,8 @@ Anytime, Anywhere, Any device.</p>
             <button>Vitamin Tests</button>
             <button>Cancer</button>
         </div>
-        <button className="started">Get Started</button>
+        <button className="started">Get Started</button>  */}
+
     </div>
     <div className='footer'>
         <div className='location'>
