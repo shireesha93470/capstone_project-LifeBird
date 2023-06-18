@@ -19,7 +19,7 @@ function Payment(){
                         <span>E-mail :</span>
                         <input type="email" placeholder="example@example.com" id="email"></input>
                     </div>
-                    <div className="inputBox">
+                    <div  className="inputBox">
                         <span>Address :</span>
                         <input type="text" placeholder="room - street - locality" id="address"></input>
                     </div>
