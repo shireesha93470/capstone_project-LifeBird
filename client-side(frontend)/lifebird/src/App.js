@@ -22,7 +22,7 @@ function App() {
                         {/* <Doctors/>             */}
                        {/* <Labs/>          */}
                         {/* <Medicine/>    */}
-                        <payment/>
+                        {/* <payment/> */}
     </div>
   );
 }

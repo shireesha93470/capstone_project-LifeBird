@@ -14,16 +14,19 @@ function Home(){
         </div>
         <div className="text">
             <div className="text1">
-                <p> Bringing health <br></br> to life for the whole family  </p>
+                {/* <p> Bringing health <br></br> to life for the whole family  </p>
                 <p className="paragraph">Bringing health to life for the whole family is an <br></br>admirable goal. Here are some general tips and ideas<br></br> to promote health and well-being for your family:</p>
-                <button className='button'>Discover More</button>  
+                <button className='button'>Discover More</button>   */}
             </div>
-            <div className="phone">
-                <h3 className="main-h3">Talk.Resolve.Heal</h3>
-                <p className="main-p">Online Counselling Therapy With Top<br></br> Psychologists<br></br>
-Anytime, Anywhere, Any device.</p>
-            </div> 
-        </div>
+            {/* <div className="phone">
+                <div className="phone">
+                    <div id="main">
+                        
+                    </div>
+                </div>
+               
+            </div>   */}
+        </div>section
     </div>
     <h4 className="section-heading">Our Departments</h4>
     <div className='card'>
@@ -70,9 +73,9 @@ Anytime, Anywhere, Any device.</p>
         </video>
     </div>
     <div id="smallcards">
-         <h3>SOME OF OUR KEY SPECIALITIES ARE:</h3> 
-        {/* <div className="section-1">
-            <button>Women Health</button>
+         <h3>Steps To Be Taken:</h3> 
+         <div className="section-1">
+            {/* <button>Women Health</button> 
             <button>Diabetes</button>
             <button>Senior Citizen</button>
             <button>Allergy Profiles</button>
@@ -89,9 +92,39 @@ Anytime, Anywhere, Any device.</p>
             <button>Vitamin Tests</button>
             <button>Cancer</button>
         </div>
-        <button className="started">Get Started</button>  */}
-
+        <button className="started">Get Started</button>   */}
+        <img className="patient" src="/resources/patient.webp"></img>
+        <img  className="arrow"src="/resources/arrow.png"></img>
+        <img  className="phc"src="/resources/PHC.jpeg"></img>
+        <img  className="arrow" src="/resources/arrow.png"></img>
+        <img  className="specialist" src="/resources/specialist.webp"></img>
+        </div>
     </div>
+    <div id="smallcards1">
+         <h3>Steps To Be Taken:</h3> 
+         <div className="section-1">
+             <button>Women Health</button> 
+            <button>Diabetes</button>
+            <button>Senior Citizen</button>
+            <button>Allergy Profiles</button>
+        </div>
+        <div className="section-2">
+            <button>Full Body Check Up</button>
+            <button>Pregnancy</button>
+            {/* <button>Men Health</button> */}
+             <button>Liver Profiles</button>
+        </div>
+        <div className="section-3">
+            <button>Kidney Profiles</button>
+            <button>Iron Studies</button>
+            <button>Vitamin Tests</button>
+            <button>Cancer</button>
+        </div>
+        <button className="started">Get Started</button>   
+        </div>
+     
+    
+    
     <div className='footer'>
         <div className='location'>
             <h1 className="h1">LOCATION</h1>
