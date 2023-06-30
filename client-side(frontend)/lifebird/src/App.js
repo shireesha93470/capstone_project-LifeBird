@@ -1,14 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
   //  import Signup from './Components/signup';
   //  import Login from './Components/login';
   //  import Forget from './Components/forget';
-     import Home from './Components/home';
-    // import Doctors from './Components/doctors';
+    //  import Home from './Components/home';
+    //  import Doctors from './Components/doctors';
   //  import Labs from './Components/labs';
-    //  import Payment from './Components/payment'
+      // import Payment from './Components/payment'
     //import Medicine from './Components/medicines';
-  import { useState } from 'react';
+    import Doctordata from './Components/backend';
+  // import { useState } from 'react';
+  // import PHC from './Components/phc';
 
 function App() {
     
@@ -18,11 +20,13 @@ function App() {
                        {/* <Signup/>   */}
                       {/* <Login/>  */}
                       {/* <Forget/>      */}
-                      <Home/>      
+                      {/* <Home/>       */}
                         {/* <Doctors/>             */}
                        {/* <Labs/>          */}
                         {/* <Medicine/>    */}
-                        {/* <payment/> */}
+                        {/* <Payment/> */}
+                        <Doctordata/>
+                        {/* <PHC/> */}
     </div>
   );
 }

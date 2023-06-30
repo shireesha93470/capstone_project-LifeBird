@@ -1,116 +1,301 @@
-.container form{
-    padding:50px;
-    width:60%;
-    background: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    margin-left: 30px;
-    border-radius: 15px;
-  }
-  
-  .container form .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap:15px;
-  }
-  
-  .container form .row .col{
-    flex:1 1 250px;
-  }
-  
-  .container form .row .col .title{
-    font-size: 20px;
-    color:#333;
-    padding-bottom: 5px;
-    text-transform: uppercase;
-  }
-  
-  .container form .row .col .inputBox{
-    margin:15px 0;
-  }
-  
-  .container form .row .col .inputBox span{
-    margin-bottom: 10px;
-    display: block;
-  }
-  
-  .container form .row .col .inputBox input{
-    width: 100%;
-    border:1px solid #ccc;
-    padding:10px 15px;
-    font-size: 15px;
-    text-transform: none;
-  }
-  
-  .container form .row .col .inputBox input:focus{
-    border:1px solid #000;
-  }
-  
-  .container form .row .col .flex{
-    display: flex;
-    gap:15px;
-  }
-  
-  .container form .row .col .flex .inputBox{
-    margin-top: 5px;
-  }
-  
-  .container form .row .col .inputBox img{
-    height: 34px;
-    margin-top: 5px;
-    filter: drop-shadow(0 0 1px #000);
-  }
-  
-  .container form .submit-btn{
-    width: 100%;
-    padding:12px;
-    font-size: 17px;
-    background: rgb(76, 190, 51);
-    color:#fff;
-    margin-top: 5px;
-    cursor: pointer;
-  }
-  
-  .container form .submit-btn:hover{
-    background: #2ecc71;
-  }
-  
-  /* OTP */
-  #otp{
-    background-color: white;
-    padding: 40px;
-    width: fit-content;
-    visibility: hidden;
-    margin: auto;
-    border: 1px solid grey;
-    border-radius: 15px;
-    margin-bottom: 50px;
-  }
-  #otp h1, #otp h3, #otp h4{
-    font-family: sans-serif;
-    font-weight: 500;
-  }
-  #otp h3{
-    margin: 10px 0px 10px 0px;
-  }
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-  }
-  #otp input{
-    height: 25px;
-    padding: 5px;
-    margin-bottom: 10px;
-    background-color: gainsboro;
-  }
-  #otp input:focus{
-    outline: none;
-  }
-  #otp button{
-    line-height: 35px;
-    width: 80px;
-    margin-left: 10px;
-  }
-  #otp button:hover{
-    cursor: pointer;
-  }
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-right: 90px;
+  border-radius: 15px;
+}
+
+
+#inp {
+  width: 30%;
+  padding: 0px 30px;
+  border-radius: 19px;
+  height: 50px;
+}
+
+#inp:focus {
+  outline: none;
+}
+
+#searchBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  width: 7%;
+  border-radius: 25px;
+  margin-right: 25%;
+  background-color: #ded5ec;
+  color: rgb(21, 16, 44);
+  font-weight: 500;
+  height: 30px;
+  border: 1.5px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+#searchBtn:hover {
+  cursor: pointer;
+}
+
+#logos {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  /* visibility: hidden; */
+}
+
+#nav-third-div {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+
+/* SignedIn Part */
+#signedIn {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+
+#signedIn:hover {
+  cursor: pointer;
+}
+
+#loginBtn, #registerBtn {
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+  line-height: 1.2cm;
+  width: 2.5cm;
+  border-radius: 20px;
+  font-family: sans-serif;
+  color: #457eff;
+  background-color: white;
+  border: 2px solid #457eff;
+  font-size: 0.4cm;
+  font-weight: 700;
+}
+
+#loginBtn {
+  margin-right: 30px;
+}
+
+/* Testing */
+
+#loginBtn:hover {
+  color: #84a4ee;
+  cursor: pointer;
+}
+
+#registerBtn:hover {
+  cursor: pointer;
+  color: #84a4ee;
+}
+
+#nav-third-div>button::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  top: 0;
+  bottom: 0;
+  left: -32px;
+  transform: rotate(-16deg);
+  filter: blur(4px);
+}
+
+#loginBtn::before {
+  background: #457eff;
+}
+
+#registerBtn::before {
+  background: #457eff;
+}
+
+#nav-third-div>button:hover::before {
+  left: calc(100% + 32px);
+  transition: 0.75s;
+}
+
+.container form{
+  padding:50px;
+  width:60%;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  margin-left: 30px;
+  border-radius: 15px;
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: rgb(76, 190, 51);
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}
+
+/* OTP */
+#otp{
+  background-color: white;
+  padding: 40px;
+  width: fit-content;
+  visibility: hidden;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+#otp h1, #otp h3, #otp h4{
+  font-family: sans-serif;
+  font-weight: 500;
+}
+#otp h3{
+  margin: 10px 0px 10px 0px;
+}
+
+#otp input{
+  height: 25px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: gainsboro;
+}
+#otp input:focus{
+  outline: none;
+}
+#otp button{
+  line-height: 35px;
+  width: 80px;
+  margin-left: 10px;
+}
+#otp button:hover{
+  cursor: pointer;
+}
+
+
+#inp {
+  width:30%;
+  border-radius:19px;
+  height:50px;
+}
+#inp:focus{
+  outline: none;
+}
+#searchBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:9px;
+  width:7%;
+  border-radius:25px;
+  margin-right: 25%;
+  background-color:#ded5ec;
+  color:rgb(21, 16, 44);
+  font-weight: 500;
+  height:40px;
+  border:1.5px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+#searchBtn:hover{
+  cursor: pointer;
+}
+#logos{
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  /* visibility: hidden; */
+}
+
+#nav-third-div{
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+#pTag{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:30px;
+  border:0px solid white;
+  width:200%;
+}
+body{
+  font-family: sans-serif;
+  background-image: url("https://www.paymentsjournal.com/wp-content/uploads/2021/12/secure-online-payment-internet-banking-via-credit-card-mobile-scaled.jpg"); 
+  background-size: 100% 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  
+}

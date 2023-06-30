@@ -14,20 +14,15 @@ function Home(){
         </div>
         <div className="text">
             <div className="text1">
-                {/* <p> Bringing health <br></br> to life for the whole family  </p>
-                <p className="paragraph">Bringing health to life for the whole family is an <br></br>admirable goal. Here are some general tips and ideas<br></br> to promote health and well-being for your family:</p>
-                <button className='button'>Discover More</button>   */}
-            </div>
-            {/* <div className="phone">
-                <div className="phone">
-                    <div id="main">
-                        
-                    </div>
+                <div className="card-section">
+                    
                 </div>
                
-            </div>   */}
-        </div>section
+            </div>
+            
+        </div>
     </div>
+    <div className="main-part">
     <h4 className="section-heading">Our Departments</h4>
     <div className='card'>
         <div className="small-part">
@@ -67,6 +62,7 @@ function Home(){
             </div>
         </div>
     </div>  
+</div>
     <div className='video-layout'>
         <video className='video' controls>
             <source src={"doctor.mp4"} type="video/mp4"></source>
@@ -75,52 +71,62 @@ function Home(){
     <div id="smallcards">
          <h3>Steps To Be Taken:</h3> 
          <div className="section-1">
-            {/* <button>Women Health</button> 
-            <button>Diabetes</button>
-            <button>Senior Citizen</button>
-            <button>Allergy Profiles</button>
-        </div>
-        <div className="section-2">
-            <button>Full Body Check Up</button>
-            <button>Pregnancy</button>
-            <button>Men Health</button>
-             <button>Liver Profiles</button>
-        </div>
-        <div className="section-3">
-            <button>Kidney Profiles</button>
-            <button>Iron Studies</button>
-            <button>Vitamin Tests</button>
-            <button>Cancer</button>
-        </div>
-        <button className="started">Get Started</button>   */}
         <img className="patient" src="/resources/patient.webp"></img>
         <img  className="arrow"src="/resources/arrow.png"></img>
-        <img  className="phc"src="/resources/PHC.jpeg"></img>
+        <img  className="phc"src="/resources/Primary Health Care.png"></img>
         <img  className="arrow" src="/resources/arrow.png"></img>
         <img  className="specialist" src="/resources/specialist.webp"></img>
+        <img  className="arrow" src="/resources/arrow.png"></img>
+        <img  className="labs" src="/resources/labs.png"></img>
         </div>
     </div>
     <div id="smallcards1">
-         <h3>Steps To Be Taken:</h3> 
-         <div className="section-1">
-             <button>Women Health</button> 
-            <button>Diabetes</button>
-            <button>Senior Citizen</button>
-            <button>Allergy Profiles</button>
+         <h3>Most common symptoms:</h3> 
+         <div className="sec-1">
+            <div className="sec1">
+                <img src="/resources/1.png"></img> 
+                <p>Fever</p>
+            </div>
+            
+            <div className="sec">
+                <img src="/resources/2chestpain.png"></img>
+                <p>Chest pain</p>
+            </div> 
+            <div className="sec">
+                <img src="/resources/3cough.png"></img> 
+                <p>cough&cold</p>
+            </div>
+            <div className="sec">
+                <img src="/resources/4constipation.png"></img> 
+                <p>constipation</p>
+            </div>
+            <div className="sec">
+                <img src="/resources/5sorethroat.png"></img> 
+                <p>sorethroat</p>
+            </div>
         </div>
         <div className="section-2">
-            <button>Full Body Check Up</button>
-            <button>Pregnancy</button>
-            {/* <button>Men Health</button> */}
-             <button>Liver Profiles</button>
+        <div className="sec1">
+                <img src="/resources/6infertility.png"></img> 
+                <p>Infertility</p>
+            </div>
+            <div className="sec">
+                <img src="/resources/7irregular periods.png"></img>
+                <p>Irregular periods</p>
+            </div> 
+            <div className="sec">
+                <img src="/resources/8headache.png"></img> 
+                <p>Head ache</p>
+            </div>
+            <div className="sec">
+                <img src="/resources/9abdominalpain.png"></img> 
+                <p>Abdominal pain</p>
+            </div>
+            <div className="sec">
+                <img src="/resources/10itching.png"></img> 
+                <p>Itching</p>
+            </div>
         </div>
-        <div className="section-3">
-            <button>Kidney Profiles</button>
-            <button>Iron Studies</button>
-            <button>Vitamin Tests</button>
-            <button>Cancer</button>
-        </div>
-        <button className="started">Get Started</button>   
         </div>
      
     

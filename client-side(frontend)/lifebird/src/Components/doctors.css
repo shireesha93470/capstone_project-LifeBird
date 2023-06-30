@@ -127,7 +127,7 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
  .main-section{
-    height:1100px;
+    height:1700px;
     width:auto;
     display: flex;
     margin-top: 5px;
@@ -166,57 +166,61 @@
     margin-top: 60px;
  }
  .card-section{
-    height:1100px;
+    height:2000px;
     width:100%;
     
  }
  .small-card button{
-   margin-left:70px;
-   height:40px;
-   width:150px;
-   font-size: 15px;
+   margin-left:130px;
+   height:60px;
+   width:200px;
+   font-size: 25px;
+   border-radius: 5px;
+   margin-top: 30px;
  }
  #layout-1{
     display: flex;
-    height:350px;
+    height:550px;
     width:auto;
     
  }
  .small-card{
-    height:330px;
-    width:300px;
+    height:530px;
+    width:450px;
     border: 1px solid black; 
     margin-top: 10px;
-    margin-left: 55px;
+    margin-left: 85px;
+    border-radius: 20px;
  }
  .small-card img{
-    height:200px;
-    width:200px;
-    border-radius: 100px;
-    margin-left: 50px;
+    height:300px;
+    width:300px;
+    border-radius: 150px;
+    margin-left: 90px;
     margin-top: 20px;
  }
  .small-card h3{
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    font-size: 30px;
  }
  .doctor-card{
-    height:400px;
+    height:500px;
     width:auto;
     border:1px solid black;
     display: flex;
  }
  .small-doctorcard{
-    height:300px;
-    width:300px;
+    height:350px;
+    width:350px;
     border-radius: 10px;
     border:1px solid blue;
-    margin-left: 53px;
+    margin-left: 43px;
     margin-top: 50px;
  }
  .small-doctorcard img{
-    height:200px;
-    width:200px;
+    height:250px;
+    width:250px;
     border-radius: 15px;
     margin-left: 50px;
     margin-top: 20px;
@@ -224,4 +228,6 @@
  .small-doctorcard h3{
     margin-left: 90px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
  }
