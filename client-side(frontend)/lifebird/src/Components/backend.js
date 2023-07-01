@@ -30,10 +30,6 @@ const Doctordata=()=>{
     
     
        };
-  
-     
-    
-    
     return(<div>
             <div className='main-section'>
             <div className='navbar'>
