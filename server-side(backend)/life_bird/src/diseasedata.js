@@ -31,7 +31,7 @@ app.get("/search/:doctors",async(req,res) =>{
   })
 })
 const port = 5005;
-app.listen(5005, () => {
+app.listen(port, () => {
     console.log(`Server running on port ${port}`);
   }); 
 app.on('listening', function() {
