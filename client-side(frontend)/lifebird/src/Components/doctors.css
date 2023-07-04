@@ -1,0 +1,233 @@
+.navbar{
+   display: flex;
+   border: 1px solid white;
+   background-color: #6dedef;
+}
+
+.home{
+   margin-left: 1080px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: black;
+   font-size: 24px;
+}
+.doctor{
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
+}
+
+.lab{
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
+}
+
+.medicine{
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
+}
+
+.signup{
+   margin-left: 50px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
+}
+
+.logo{
+   margin-left: 80px;
+   margin-top: 20px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   color: black;
+}
+.search{
+    height:40px;
+    width:400px;
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#searchbutton1{
+    height:41px;
+    width:50px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border:none;
+    border-radius: 3px;
+}
+.searchbar{
+    display: flex;
+}
+
+.search-logo{
+    width:40px;
+    height:40px;
+}
+
+.footer{
+    width: 100%;
+    height:300px;
+    background-color: black;
+    display: flex;  
+}
+
+.logos img{
+    height:50px;
+    width:50px;border-radius: 50px;
+    margin-top: 10px;
+ }
+ .logo1{
+    display: flex;
+ }
+  .facebook{
+    margin-left: 30px;
+ }
+ .insta{
+    margin-left: 20px;
+ }
+ .twitter{
+    margin-left: 20px;
+ } 
+ h1{
+    color:whitesmoke
+ }
+ p{
+    color:whitesmoke
+ }
+ .location{
+    height:200px;
+    width:500px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .logos{
+    height:200px;
+    width:500px; 
+    margin-top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .about{
+    height:300px;
+    width:500px; 
+    margin-top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .main-section{
+    height:1700px;
+    width:auto;
+    display: flex;
+    margin-top: 5px;
+
+ }
+ .search-input{
+    display: flex;
+ }
+ .search-input input{
+    height:35px;
+    width:250px;
+    margin-left: 30px;
+    
+ }
+ .search-input img{
+    height:35px;
+    width:35px;
+ }
+ .search-button{
+    height:40px;
+    width:40px;
+    border:1px solid black; 
+    margin-left: 10px;
+ }
+ .left-section{
+    height:1089px;
+    width:350px;
+    border:1px solid black; 
+    margin-top: 10px;
+    
+ }
+ .search{
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+    margin-top: 60px;
+ }
+ .card-section{
+    height:2000px;
+    width:100%;
+    
+ }
+ .small-card button{
+   margin-left:130px;
+   height:60px;
+   width:200px;
+   font-size: 25px;
+   border-radius: 5px;
+   margin-top: 30px;
+ }
+ #layout-1{
+    display: flex;
+    height:550px;
+    width:auto;
+    
+ }
+ .small-card{
+    height:530px;
+    width:450px;
+    border: 1px solid black; 
+    margin-top: 10px;
+    margin-left: 85px;
+    border-radius: 20px;
+ }
+ .small-card img{
+    height:300px;
+    width:300px;
+    border-radius: 150px;
+    margin-left: 90px;
+    margin-top: 20px;
+ }
+ .small-card h3{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+ }
+ .doctor-card{
+    height:500px;
+    width:auto;
+    border:1px solid black;
+    display: flex;
+ }
+ .small-doctorcard{
+    height:350px;
+    width:350px;
+    border-radius: 10px;
+    border:1px solid blue;
+    margin-left: 43px;
+    margin-top: 50px;
+ }
+ .small-doctorcard img{
+    height:250px;
+    width:250px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .small-doctorcard h3{
+    margin-left: 90px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
+ }

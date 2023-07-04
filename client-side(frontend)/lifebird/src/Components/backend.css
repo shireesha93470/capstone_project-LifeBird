@@ -1,0 +1,162 @@
+.doctor{
+    height:400px;
+    width:850px;
+    border:1px solid blue;
+    margin-top: 80px;
+    /* background-color: rgb(255, 229, 252); */
+    background-color: white;
+    margin-left: 95px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    
+}
+.doctor:hover{
+    background-color: #097973;
+    
+}
+.main-section{
+    border:1pc solid rgb(0, 0, 0);
+    height:250px;
+    width:auto;
+}
+.id{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 63px;
+    display: flex;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    background-color: #00243a;
+    width:auto;
+    
+}
+
+.Name{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.phone{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.exp{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.address{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+image{
+    height:400px;
+    width:400px;
+    border:1px solid black;
+}
+
+.img{
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+} 
+.nav{
+    height:100px;
+    width:auto;
+    border:1pc solid rgb(194, 188, 188);
+}
+.search-input img{
+    height:40px;
+    width:40px;
+    margin-left: 10px;
+ }
+ .search-button{
+    height:55px;
+    width: 60px;
+    border:1px solid black; 
+    margin-left: 10px;
+    margin-top: 50px;
+ }
+ .search-input{
+    display: flex;
+ }
+ .search-input input{
+    height:55px;
+    width:400px;
+    margin-left: 750px;
+    margin-top:50px;
+    font-size: 20px;
+ }
+ 
+ .main{
+   display: flex;
+ }
+ .navbar{
+    display: flex;
+    border: 1px solid white; 
+    background-image: linear-gradient(to left, #08162a, #00243a, #00323b, #003e2c, #134811);
+    height: 100px;
+    width: 100%;
+    color:white;
+ }
+ 
+ .home{
+    margin-left: 980px;
+    margin-top: 29px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 34px;
+    color:white;
+ }
+ .Doctor{
+    margin-left: 50px;
+    margin-top: 29px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+    color: black;
+    color:white;
+ }
+ 
+ .lab{
+    margin-left: 50px;
+    margin-top: 29px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+    color: black;
+    color:white;
+ }
+ 
+ .medicine{
+    margin-left: 50px;
+    margin-top: 29px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+    color: black;
+    color:white;
+ }
+ 
+ .signup{
+    margin-left: 50px;
+    margin-top: 29px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+    color: black;
+    color:white;
+ }
+ .logo{
+    margin-left: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50px;
+    height:80px;
+    width:200px;
+    margin-top: 10px;
+}

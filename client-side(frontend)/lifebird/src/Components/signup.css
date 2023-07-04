@@ -1,0 +1,57 @@
+.outer-line{
+    height:550px;
+    width:500px;  
+    margin-left: 650px;
+    margin-top: 240px; 
+    background-image: linear-gradient(to right, rgb(40, 134, 221), #87c3f2); 	
+}
+.texboxes{
+	margin: 40px 100px;
+}
+
+
+  .box{
+	
+	margin: 0 auto;
+	margin-top: 150px;
+	width: 243px;
+}  
+
+.details{
+	width: 100%;
+	font-size: 20px;
+	outline: none;
+	background-color: rgba(0, 0, 0 , 0);
+	border: none;
+	border-bottom: 1px solid #FFF;
+	color: white;
+}
+img{
+	height:100px;
+	width:100px;
+	border-radius: 100px;
+}
+h1{
+	margin-top: 60px;
+}
+.login{
+	height:40px;
+	width:150px;
+	border-radius: 5px;
+	background-color: aqua;
+	margin-left: 160px;
+	
+}
+body{
+    background-image: url(../../public/resources/baground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:81vh;
+ }
+ .top-section{
+	margin-left: 180px;
+ } 
+ .signup{
+	margin-left: 150px;
+ }
+
