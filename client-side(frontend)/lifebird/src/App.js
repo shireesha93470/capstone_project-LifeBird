@@ -11,8 +11,8 @@
     // import Doctordata from './Components/backend';
   // import { useState } from 'react';
   // import PHC from './Components/phc';
-  import Diseasedata from "./Components/diseasebackend";
-  // import Infodata from "./Components/specialistfrontend";
+  // import Diseasedata from "./Components/diseasebackend";
+  import Infodata from "./Components/specialistfrontend";
 
 function App() {
     
@@ -29,8 +29,8 @@ function App() {
                         {/* <Payment/> */}
                         {/* <Doctordata/> */}
                         {/* <PHC/> */}
-                        <Diseasedata/>
-                       {/* <Infodata/>  */}
+                        {/* <Diseasedata/> */}
+                       <Infodata/> 
     </div>
   );
 }

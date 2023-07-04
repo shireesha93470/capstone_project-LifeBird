@@ -31,7 +31,7 @@ import './diseasebackend.css';
         setMessage(event.target.value);
        };
     return(<div>
-            <div className='main-section'>
+        <div className='main-section'>
             <div className='navbar'>
                <img  className="logo"src="./resources/bird.jpeg"></img>
                 <p className='home'>Home</p>
@@ -40,36 +40,40 @@ import './diseasebackend.css';
                 <p className='medicine'>Labs</p>
                 <p className='signup'>Signup</p>
             </div>
-        <div className='display'>
-            <div>
-                
+            <div className='partone'>
+                <img src="https://www.felixhospital.com/sites/default/files/2022-09/Tips%20For%20First%20Time%20Parents.jpg"></img>
+                <div className='search-input'>
+                    <input type="text" placeholder='Search Doctors' onChange={handleChange}
+                        value={message}/>
+                    <button className='search-button'onClick={button}>
+                        <img src="/resources/search.avif" alt=""></img>
+                    </button>
                 </div>
+            </div>
+            <div className='display'>
+        <div>
+    </div>
                 
                 
-                
-                
-                <div className='small'>
-                    {
-                        data?.map(({image,Name})=>
+    <div className='small'>
+        {
+            data?.map(({image,Name})=>
+            
+            <div className='doctor'>
+                <div className='prime'>
+                    <p className='image'>
+                        <img  className="img"src={image} alt=""/>
+                    </p>
+                    <p className="text">
+                        <h3 className='Name'>{Name}</h3>
+                    </p>
+                    <button>Click Here</button>
+                </div> 
+            </div>
                         
-                        <div className='doctor'>
-                            
-                                <p className='image'>
-                                    <img  className="img"src={image} alt=""/>
-                                </p>
-                                <p className="text">
-                                <h3 className='Name'>{Name}</h3>
-                                </p>
-                                <button>Click Here</button>
-                                
-                        </div>
+         )
                         
-                        
-                        )
-                        
-                    
-                
-                    }
+    }
                     <div className='Main'>
                         <div className='line'>
                             <div className='cart' onClick={()=>setNum(1)}>
@@ -86,11 +90,7 @@ import './diseasebackend.css';
                             </div>
                             <div className='cart' onClick={()=>setNum(5)}>
                                 <p>Transplants</p>
-                            </div>
-                           
-                           
-                           
-                           
+                            </div>  
                         </div>
                         {num === 1 && <div className='card'>
                             <img src="	https://hospital.narayanahealth.org/northsouth_assets/img/specialities/Cardiac.jpg"></img>
@@ -155,8 +155,9 @@ import './diseasebackend.css';
                     </div>
         
                 </div>
+           </div>
         </div>
-        </div>
-    </div>)
+    </div>
+ )
 }
 export default  Doctordata;

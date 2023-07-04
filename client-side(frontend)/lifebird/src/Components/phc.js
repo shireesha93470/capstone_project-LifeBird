@@ -123,7 +123,7 @@ function PHC (){
                 </div>
             </div>
         </div>
-        <div className='footer'>
+    <div className='footer'>
         <div className='location'>
             <h1 className="h1">LOCATION</h1>
             <p className="p">somewhere in India</p>

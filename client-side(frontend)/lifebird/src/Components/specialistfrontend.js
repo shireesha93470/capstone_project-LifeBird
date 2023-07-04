@@ -74,21 +74,23 @@ import './specialistfrontend.css';
                 </div>  
             
                 <div className='small'>
+                    <div className='special-sec'>
                     {
                         data?.map(({image,name,specialization,Experience,phone_number,location})=>
                         
                         <div className='doctor'>
-                              <div id="fix">
-                                <img  className="img"src={image} alt=""/>
-                                <p className="text">
+                            <div className='card-part'>
+                            <img  className="img"src={image} alt=""/>
+                            </div>
+                            <div className="text">
                                 <p className='Name'>Name:{name}</p>
                                 <p className='Name'>specialization:{specialization}</p>
                                 <p className='Name'>Experience:{Experience}</p>
                                 <p className='Name'>phone_number:{phone_number}</p>
                                 {/* <p className='Name'>{location}</p> */}
-                                </p>
-                                <button>Click Here</button>
                             </div>
+                                {/* <button>Click Here</button> */}
+                            
                     
                        </div>
                         
@@ -96,6 +98,7 @@ import './specialistfrontend.css';
                     
                 
                     }
+                    </div>
         
                 </div>
         </div>
