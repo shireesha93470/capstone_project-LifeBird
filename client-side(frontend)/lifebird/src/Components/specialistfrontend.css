@@ -102,20 +102,11 @@
     padding-bottom: 100px;
    
 }
-/* .part{
-    border:10px solid green;
-    height:800px;
-    width: 20%;
-    background-color:rgb(189, 185, 185);
-    margin-top: 50px;
-    margin-left: 50px;
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
-} */
+
 .small{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: #00243a;
     height: 5500px;
 }
@@ -131,11 +122,13 @@
     
  }
  .card-part{
-    height:200px;
-    width:800px;
+    height:250px;
+    width:1000px;
     border:1px solid white;
     margin-top: 20px;
     padding-bottom: 55px;
+    border-radius: 10px;
+    margin-left: 400px;
 
     
  }
@@ -146,20 +139,11 @@
     width:200px;
 }
 .text{
-   margin-left: -900px;
+   margin-left: -1100px;
     font-size: 10px;
-    margin-top: 80px;
-    
-    
+    margin-top: 60px;    
 }
-/* button{
-    height:60px;
-    width:250px;
-    margin-left: 70px;
-    background-color: green;
-    border-radius: 10px;
-    font-size: 20px;
-} */
+
 .search-input img{
     height:40px;
     width:40px;
@@ -193,10 +177,26 @@
     border-radius: 10px;
     background-color: white;
 }
-/* .select-part{
+ /* .buttons{
     height:50px;
-    width:300px;
-    margin-top: 290px;
-    margin-left: -300px;
-    font-size: 25px;
+    width:850px;
+    background-color: #003e2c;
+    display: flex;
+    margin-left: 430px;  
 } */
+ .first-button{
+    height:45px;
+    width:200px;
+    background-color: #ebf4f9;
+    margin-top: 260px;
+    margin-left: -220px;
+    border-radius: 10px;
+} 
+.sec-button{
+    height:45px;
+    width:200px;
+    background-color: #ebf4f9;
+    margin-top: 260px;
+    margin-left: 12px;
+    border-radius: 10px;
+} 

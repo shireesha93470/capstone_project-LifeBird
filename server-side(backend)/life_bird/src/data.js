@@ -30,6 +30,15 @@ app.get("/search/:primarytable",async(req,res) =>{
         res.status(200).send(result);
     })
 })
+app.get("/search/:primarytable",async(req,res) =>{
+    var data=req.params.primarytable
+    var getTableData = `select * from primarytable where Doctor_id="${data}"`;
+    con.query(getTableData, function(err, result){
+          if(err) throw err;
+        // alert("Data added successfully!")
+        res.status(200).send(result);
+    })
+})
 const port = 5500;
 app.listen(5500, () => {
     console.log(`Server running on port ${port}`);

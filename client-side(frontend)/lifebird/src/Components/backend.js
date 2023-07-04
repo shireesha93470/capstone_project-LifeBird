@@ -45,7 +45,7 @@ const Doctordata=()=>{
         value={message}/>
             <button className='search-button'onClick={button}>
                 <img src="/resources/search.avif" alt=""></img>
-                <h4 className='clear' onClick={fetchData}>clear</h4>
+                {/* <h4 className='clear' onClick={fetchData}>clear</h4> */}
             </button>
         </div>
         <div className='display'>

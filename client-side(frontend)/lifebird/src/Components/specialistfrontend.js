@@ -88,8 +88,18 @@ import './specialistfrontend.css';
                                 <p className='Name'>Experience:{Experience}</p>
                                 <p className='Name'>phone_number:{phone_number}</p>
                                 {/* <p className='Name'>{location}</p> */}
+                                
+                             
                             </div>
                                 {/* <button>Click Here</button> */}
+                               
+                                    <div >
+                                        <button className='first-button'>Book Appointment</button>
+                                    </div>
+                                    {/* <div>
+                                        <button className='sec-button' >view Profile</button>
+                                    </div>
+                                */}
                             
                     
                        </div>

@@ -7,12 +7,12 @@
     //  import Doctors from './Components/doctors';
   //  import Labs from './Components/labs';
       // import Payment from './Components/payment'
-    //import Medicine from './Components/medicines';
+    import Medicine from './Components/medicines';
     // import Doctordata from './Components/backend';
   // import { useState } from 'react';
   // import PHC from './Components/phc';
   // import Diseasedata from "./Components/diseasebackend";
-  import Infodata from "./Components/specialistfrontend";
+  // import Infodata from "./Components/specialistfrontend";
 
 function App() {
     
@@ -25,12 +25,12 @@ function App() {
                       {/* <Home/>       */}
                         {/* <Doctors/>             */}
                        {/* <Labs/>          */}
-                        {/* <Medicine/>    */}
+                        <Medicine/>   
                         {/* <Payment/> */}
                         {/* <Doctordata/> */}
                         {/* <PHC/> */}
                         {/* <Diseasedata/> */}
-                       <Infodata/> 
+                       {/* <Infodata/>  */}
     </div>
   );
 }
