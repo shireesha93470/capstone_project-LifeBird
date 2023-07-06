@@ -9,7 +9,7 @@ import './specialistfrontend.css';
         fetchData();
     },[])
     const fetchData=()=>{
-        fetch("http://localhost:5003/data").then((res)=>{
+        fetch("http://localhost:5003/doctors").then((res)=>{
             return res.json();
         }).then((res)=>{
             setData(res);
@@ -18,7 +18,7 @@ import './specialistfrontend.css';
     
     } 
     const button=()=>{
-        fetch(`http://localhost:5003/search/${message}`).then((res)=>{
+        fetch(`http://localhost:5003/searchdoctors ${message}`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setData(res);
@@ -42,36 +42,16 @@ import './specialistfrontend.css';
                 <p className='signup'>Signup</p>
             </div>
         <div className='display'>
-                  {/* <div className='part'> */}
-                    <div className='search-input'>
+        <div className='search-input'>
                     <input type="text" placeholder='Search Doctors' onChange={handleChange}
-                    value={message}/>
-                    <button className='search-button' onClick={button}>
+                        value={message}/>
+                    <button className='search-button'onClick={button}>
                         <img src="/resources/search.avif" alt=""></img>
                     </button>
-                    <div> 
-                    
-                         <select className='select'>
-                        <h4>locations</h4>
-                            <option>Banglore</option>
-                            <option>Delhi</option>
-                            <option>Tirupati</option>
-                            <option>Madanapalli</option>
-                            <option>Palamaner</option>
-                            <option>Chittoor</option>
-                        </select>
-                        {/* <select className='select-part'>
-                            <option>Cardiologist</option>
-                            <option>Dermotologist</option>
-                            <option>Gynecologist</option>
-                            <option>Endocrinologist</option>
-                            <option>Neurologist</option>
-                            <option>orthologist</option>
-                        </select> */}
-     </div> 
-                  </div> 
-                
-                </div>  
+                </div> 
+               
+            </div> 
+        </div>  
             
                 <div className='small'>
                     <div className='special-sec'>
@@ -112,7 +92,7 @@ import './specialistfrontend.css';
         
                 </div>
         </div>
-        </div>
+        
     )
 }
 export default  Infodata;

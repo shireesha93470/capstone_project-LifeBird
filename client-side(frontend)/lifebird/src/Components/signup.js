@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './signup.css';
+import { Link } from "react-router-dom";
 function Signup({islogin,setIslogin}){
 
 	const[Name,setName]=useState("");
@@ -48,7 +49,10 @@ function Signup({islogin,setIslogin}){
      	         		<input type="password" placeholder="password"onChange={e=> setpassword(e.target.value)} className="details" />
      	          </div>
      	          <div className="input center">
-     	         		<input type="button" value="Signup"onClick={button} className="login" />
+						<Link to="/signup">
+     	         			<input type="button" value="Signup"onClick={button} className="login" />
+
+						</Link>
      	          </div>
      	        </form>
      	         	<p className="signup">Already a member? <span onClick={handleSignupClick}>Login</span></p>
@@ -59,3 +63,5 @@ function Signup({islogin,setIslogin}){
     )
 }
 export default Signup;
+
+

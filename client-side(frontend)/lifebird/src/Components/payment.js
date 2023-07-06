@@ -48,7 +48,7 @@ function Payment(){
 
                     <div className="inputBox">
                         <span>Cards Accepted :</span>
-                        <img src="./Photos/card_img.png" alt=""></img>
+                        <img src="./resources/card_img.png" alt=""></img>
                     </div>
                     <div className="inputBox">
                         <span>Name on card :</span>

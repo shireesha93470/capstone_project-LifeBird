@@ -9,7 +9,7 @@ const Doctordata=()=>{
         fetchData();
     },[])
     const fetchData=()=>{
-        fetch("http://localhost:5500/data").then((res)=>{
+        fetch("http://localhost:5500/phcdata").then((res)=>{
             return res.json();
         }).then((res)=>{
             setData(res);
@@ -17,7 +17,7 @@ const Doctordata=()=>{
         })
     }
     const button=()=>{
-        fetch(`http://localhost:5500/search/${message}`).then((res)=>{
+        fetch(`http://localhost:5500/searchphc/${message}`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setData(res);

@@ -10,7 +10,7 @@ import './diseasebackend.css';
         fetchData();
     },[])
     const fetchData=()=>{
-        fetch("http://localhost:5005/data").then((res)=>{
+        fetch("http://localhost:5005/disease").then((res)=>{
             return res.json();
         }).then((res)=>{
             setData(res);
@@ -19,7 +19,7 @@ import './diseasebackend.css';
     
     } 
     const button=()=>{
-        fetch(`http://localhost:5005/search/${message}`).then((res)=>{
+        fetch(`http://localhost:5005/searchdisease/${message}`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setData(res);
@@ -41,12 +41,12 @@ import './diseasebackend.css';
                 <p className='signup'>Signup</p>
             </div>
             <div className='partone'>
-                <img src="https://www.felixhospital.com/sites/default/files/2022-09/Tips%20For%20First%20Time%20Parents.jpg"></img>
+                <img id='parttwo' src="https://www.felixhospital.com/sites/default/files/2022-09/Tips%20For%20First%20Time%20Parents.jpg"></img>
                 <div className='search-input'>
                     <input type="text" placeholder='Search Doctors' onChange={handleChange}
                         value={message}/>
                     <button className='search-button'onClick={button}>
-                        <img src="/resources/search.avif" alt=""></img>
+                        <img className='search1' src="/resources/search.avif" alt=""></img>
                     </button>
                 </div>
             </div>
