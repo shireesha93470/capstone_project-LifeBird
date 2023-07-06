@@ -5,6 +5,12 @@
     font-family: open;
     margin-left: 600px;
 }
+#parttwo{
+    width:90%;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .phone{
     font-size: 25px;
     margin-left: 30px;
@@ -172,27 +178,25 @@ image{
 }
 .display{
     display: flex; 
-    background-color: rgb(191, 188, 188);
+    background-color: rgb(132, 132, 132);
     margin-top: 5px;
 
 }
 .partone img{
-    height:700px;
+    height:750px;
     width:100%;
     background-size: cover;
+    margin-left: 5px;
     
 }
-
 .small{ 
     width:100%;
     display: flex;
     flex-wrap: wrap;
 }
-
- .doctor{
+.doctor{
     width: 400px;
-   
- }
+}
 
 .img{
     margin-left: 70px;
@@ -212,24 +216,25 @@ button{
     height:40px;
     width:40px;
     
- }
+}
  .search-button{
     height:55px;
     width: 60px;
     border:1px solid black; 
     margin-left: 10px;
-    margin-top: -100px;
+    /* margin-top: -100px; */
     background-color: white;
- }
+}
  .search-input{
     display: flex;
- }
+}
  .search-input input{
     height:50px;
     width:500px;
-    margin-top:-100px;
+    margin-top: -30px;
     font-size: 20px;
     margin-left: 650px;
     border-radius: 10px;
- }
+    margin-bottom: 50px;
+}
 

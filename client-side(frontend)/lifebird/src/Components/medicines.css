@@ -3,7 +3,11 @@
     border: 1px solid white;
     background-color: #6dedef;
  }
- 
+ .text{
+   height:200px;
+   width:200px;
+   background-color: #6dedef;
+ }
  .home{
     margin-left: 1080px;
     margin-top: 20px;
