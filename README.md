@@ -1,4 +1,4 @@
-<h1>Life_Bird</h1>
+<h1>LifeBird</h1>
 
 ### Technologies Involved
 
